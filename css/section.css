@@ -1,0 +1,76 @@
+.section {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    max-width: 650px;
+
+    background-color: rgb(223, 224, 220);
+    font-size: 0.8em;
+
+}
+.section--oneColumn{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    max-width: 650px;
+
+    background-color: rgb(223, 224, 220);
+
+}
+
+@media(max-width: 322px) {
+    .section {
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+.section__form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.section__span {
+    display: grid;
+
+    padding: 5px
+}
+
+.section--product {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px;
+    background-color:rgb(223, 224, 220);
+
+    
+
+
+}
+
+.section--productValue {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px;
+    background-color: rgb(223, 224, 220);
+    max-width: 500px;
+
+
+   
+
+}
+
+.section__input{
+  
+
+}
+.section__select{
+ 
+}
